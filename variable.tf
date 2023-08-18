@@ -36,3 +36,7 @@ output "mapout" {
 output "mapout2" {
   value = var.map.apple
 }
+
+output "mapout3" {
+  value = "there are ${var.map.apple.stock} apples and ${var.map.banana.stock} bananas"
+}
