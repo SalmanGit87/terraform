@@ -14,3 +14,22 @@ variable "cars" {
 output "cars" {
   value = var.cars
 }
+#Map variables
+variable "map" {
+  default = {
+    apple = {
+      price = 10
+      sku   = "abc1"
+      stock = 200
+    }
+    banana = {
+      price = 300
+      sku   = "sdf12"
+      stock = 400
+    }
+  }
+    }
+
+output "mapout" {
+  value = var.map.apple.sku
+}
