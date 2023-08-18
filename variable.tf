@@ -12,4 +12,5 @@ variable "cars" {
   default = [1,2,3,"four"]
 }
 output "cars" {
-  value = var.cars}
+  value = var.cars
+}
