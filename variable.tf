@@ -31,5 +31,5 @@ variable "map" {
     }
 
 output "mapout" {
-  value = var.map.apple.sku
+  value = var.map
 }
