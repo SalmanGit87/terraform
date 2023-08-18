@@ -9,7 +9,7 @@ output "fruit_name" {
 
 #list variables
 variable "cars" {
-  default = [1,2,3,"four"]
+  default = [1,2,3,"four",var.fruit_name]
 }
 output "cars" {
   value = var.cars
