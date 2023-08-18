@@ -31,5 +31,8 @@ variable "map" {
     }
 
 output "mapout" {
-  value = var.map
+  value = var.map.banana
+}
+output "mapout2" {
+  value = var.map.apple
 }
